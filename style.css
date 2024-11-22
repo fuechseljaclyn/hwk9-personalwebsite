@@ -1,3 +1,57 @@
-﻿body
-{
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite;
+    color: darkred;
+}
+
+header {
+    background-color: aliceblue;
+    color: cadetblue;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: darkred;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: hotpink;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+h2 {
+    color: darkred;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
 }
